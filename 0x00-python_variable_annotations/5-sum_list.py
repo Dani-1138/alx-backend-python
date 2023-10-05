@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-'''Task 5's module.
-'''
-from typing import List
+""" Complex types - list of floats """
+from typing import Callable, Iterator, Union, Optional, List
 
 
 def sum_list(input_list: List[float]) -> float:
-    '''Computes the sum of a list of floating-point numbers.
-    '''
+    """
+    Takes a list input_list of floats as argument
+    returns their sum as a float.
+    """
+
+    return sum(input_list)
